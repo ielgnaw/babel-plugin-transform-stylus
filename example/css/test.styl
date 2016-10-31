@@ -1,0 +1,26 @@
+
+@require './mixin';
+@require './config';
+
+.container
+    flex: 1
+    justify-content: center
+    align-items: center
+    background-color: #f5fcff
+    margin: 10 50%
+    border-bottom-width: hairline-width
+    -ios-shadow-opacity: 4
+    -ios-shadow-offset: 2 4
+    -android-elevation: 1
+    border-radius: $radius
+    size(250, 100)
+    .welcome
+        font-size: 20
+        text-align: center
+        margin: 10
+        color: $color1
+
+    .instructions
+        text-align: center
+        color: $color2
+        margin-bottom: 5
