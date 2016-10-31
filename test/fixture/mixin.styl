@@ -1,0 +1,17 @@
+hairline-border($border-color, $border-width = 1, $border-radius = null)
+    position: relative
+    &:after
+        content: ''
+        position: absolute
+        top: 0
+        left: 0
+        border-width: $border-width
+        border-style: solid
+        border-color: $border-color
+        box-sizing: border-box
+        size: 200%
+        z-index: -1
+        transform: scale(.5)
+        transform-origin: left top
+        if $border-radius != null
+            border-radius: $border-radius * 2

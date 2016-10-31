@@ -1,0 +1,27 @@
+
+@require './mixin';
+@require './config';
+
+.container
+    color: $color
+    flex: 1
+    justify-content: center
+    align-items: center
+    background-color: #F5FCFF
+    margin: 10 5
+    border-bottom-width: hairline-width
+    -ios-shadow-opacity: 4
+    -ios-shadow-offset: 2 4
+    -android-elevation: 1
+    padding: 1 2 3 4
+    width: $size
+    .x
+        padding: 3 3 4
+    .y
+        padding: 1
+    .foo
+        flex: 1
+        hairline-border($color, 1, $radius)
+        &:after
+            .bar
+                height: $size
