@@ -12,3 +12,5 @@ src
 coverage
 output
 test
+example
+__test__

@@ -1,24 +1,8 @@
-babelPluginTransformLess
+babel-plugin-transform-stylus
 ===
 
-Test
----
+This [Babel](https://github.com/babel/babel) [transoformation](https://babeljs.io/docs/plugins/) auto-generates React StyleSheets from import statements of Stylus files at compile time.
 
-    npm test
+Inspired by [babel-plugin-transform-styles](https://github.com/jmurzy/babel-plugin-transform-styles).
 
 
-Coverage
----
-    
-    npm run coverage
-   
-
-ES6 Compile
----
-    
-    npm run compile
-
-ES6 Compile Watch
----
-    
-    npm run watch
